@@ -1,0 +1,22 @@
+# .dockerignore
+node_modules
+.DS_Store
+.git
+.gitignore
+.npmrc
+yarn.lock
+npm-debug.log
+npm-error.log
+*.log
+*.log.*
+*.pid
+*.pid.*
+*.lck
+*.lck.*
+logs
+coverage
+test
+tests
+**/*.stories.tsx
+storybook
+playwright.config.ts

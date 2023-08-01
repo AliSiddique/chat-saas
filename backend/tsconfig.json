@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "types": ["@types/stripe"],
+        "target": "es2015",
+        "module": "commonjs",
+        "outDir": "dist",
+        "rootDir": "./",
+        "strict": true,
+        "esModuleInterop": true,
+    },
+    "include": [
+        "./",
+        "./**/*.ts"
+
+    ],
+    "exclude": ["node_modules", "dist"]
+}
